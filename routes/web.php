@@ -17,3 +17,15 @@ Route::get('/home', function () {
     $title = 'Hello World';
     return view('home', ['title' => $title]);
 });
+Route::get('/about', function () {
+    $data = [
+        'About' => 'This is my site'
+    ];
+    return view('about',  $data);
+});
+Route::get('/biography', function () {
+    $data = [
+        'Biography' => 'I\'m 25 y.o. and I\'m a developer'
+    ];
+    return view('biography',  $data);
+});
