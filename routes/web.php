@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     $title = 'Hello World';
     return view('home', ['title' => $title]);
 });
