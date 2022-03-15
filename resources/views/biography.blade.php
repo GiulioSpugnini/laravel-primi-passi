@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <a href="{{url('/home')}}">Home</a>
+    <a href="{{url('/')}}">Home</a>
     <p>Biography: {{$Biography}}</p>
 </body>
 
